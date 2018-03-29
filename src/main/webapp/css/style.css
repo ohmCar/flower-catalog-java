@@ -1,0 +1,15 @@
+html {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+img {
+    width: 720px;
+    height: 500px;
+    float: left;
+}
+
+h2 {
+    color: #f6aa1f;
+    text-align: center;
+}
