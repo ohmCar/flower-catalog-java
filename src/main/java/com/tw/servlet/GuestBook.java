@@ -8,6 +8,10 @@ import java.io.IOException;
 public class GuestBook extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
-        res.getWriter().write("<a href=/flower-catalog/login> Login to add comments</a>");
+        if(req.getCookies()!=null){
+            res.getWriter().write("<html>hello how are you</html>");
+        }
+
+        res.getWriter().write("<a href=/flower-catalog/login> Login to comment</a>");
     }
 }
