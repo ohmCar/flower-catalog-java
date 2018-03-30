@@ -8,5 +8,6 @@
   <h2> Flower Catalog </h2>
   <hr>
   <img src="images/flower.jpg"/>
+  <a href="/flower-catalog/guestbook"> Guest Book </a>
   </body>
 </html>
