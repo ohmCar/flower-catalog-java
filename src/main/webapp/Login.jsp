@@ -4,6 +4,7 @@
 </head>
 <body>
 <form method="post">
+    <message>{{ message }}</message>
     <label for="username">Username :</label>
     <input type="text" name="username" id="username" required> <br>
     <label for="password">Password :</label>
