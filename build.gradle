@@ -14,6 +14,7 @@ repositories {
 gretty{
     fastReload=true
 }
+
 dependencies {
     compile 'javax.servlet:javax.servlet-api:3.1.0'
     compile 'javax.servlet:jstl:1.2'
